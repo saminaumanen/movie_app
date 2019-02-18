@@ -8,24 +8,25 @@ class MovieTable extends Component {
     return(
 
         <div id="city_container">
-            {
-               this.props.title && <p>Movie title: 
-                    <span className="value">  {this.props.title}</span>                    
-                </p> 
-            }
-            {
-               this.props.released && <p>released: 
-                    <span className="value">  {this.props.released}</span>                    
-                </p> 
-            }
-            {
-               this.props.rating && <p>rating: 
-                    <span className="value">  {this.props.rating}</span>                    
-                </p> 
-            }
+        <table>
+           <tr>
+               <th>Movie title</th>
+               <td>{this.props.title}</td>
+            </tr>
+            <tr>
+                <th>released</th>
+                <td>{this.props.released}</td>
+            </tr>
+            <tr>
+                <th>rating</th>
+                <td>{this.props.rating}</td>
+            </tr>
+            
             {
                this.props.error && <p className="movie_error">{this.props.error}</p>
             }
+            
+            </table>
         </div>
     )
 }

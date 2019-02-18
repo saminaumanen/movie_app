@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import MovieTable from "./MovieTable";
 import MovieButton from "./MovieButton";
+import './App.css';
 
 
 //const Api_Key = "b5d69492";
