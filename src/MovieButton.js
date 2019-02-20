@@ -5,7 +5,7 @@ class MovieButton extends Component {
 
     return(
             <form onSubmit = {this.props.searchMovie}>
-                <input type="text" id="title" placeholder="Movie..."/><br></br>
+                <input type="text" autoComplete="off" id="title" placeholder="Movie..."/><br></br>
                 <button id="searchButton">Search</button>
             </form>
     )

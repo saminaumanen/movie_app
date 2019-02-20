@@ -1,15 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+#movie_container{
+  max-width: 600px;
+  font-family: 'Sarabun', sans-serif;
+  margin: 20px;
+ 
+}
+
 table {
-  font-family: arial, sans-serif;
+  font-family: 'Sarabun', sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
 td, th {
+  font-family: 'Sarabun', sans-serif;
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
+  font-family: 'Sarabun', sans-serif;
   background-color: #dddddd;
 }
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#searchButton{
+  background-color: #008CBA; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#searchButton {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+#searchButton:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+

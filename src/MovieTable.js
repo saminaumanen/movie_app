@@ -9,24 +9,28 @@ class MovieTable extends Component {
 
         <div id="city_container">
         <table>
-           <tr>
+            <tbody>
+          <tr>
                <th>Movie title</th>
                <td>{this.props.title}</td>
             </tr>
             <tr>
-                <th>released</th>
+                <th>Released</th>
                 <td>{this.props.released}</td>
             </tr>
             <tr>
-                <th>rating</th>
+                <th>Rating</th>
                 <td>{this.props.rating}</td>
             </tr>
-            
+            <tr>
+                <th>Plot</th>
+                <td>{this.props.plot}</td>
+            </tr>
+            </tbody>
+            </table>
             {
                this.props.error && <p className="movie_error">{this.props.error}</p>
             }
-            
-            </table>
         </div>
     )
 }
