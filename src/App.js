@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import MovieTable from "./MovieTable";
-import MovieButton from "./MovieButton";
+import MovieTable from "./Components/MovieTable";
+import MovieButton from "./Components/MovieButton";
 import logo from "./images/banner.png";
 import './App.css';
 

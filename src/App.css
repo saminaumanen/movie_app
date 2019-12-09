@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Sarabun');
 
 #movie_container{
-  max-width: 414px;
+  max-width: 800px;
   font-family: 'Sarabun', sans-serif;
   margin: 20px;
   background-color:	#D2691E;
   border: 3px solid #800000;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 img{
